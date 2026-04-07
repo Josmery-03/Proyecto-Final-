@@ -10,7 +10,8 @@ Este proyecto consiste en la implementación de un juego tipo Space Invaders uti
 * Pantalla de menú inicial
 * Navegación del menú a la pantalla del juego
 * Pantalla base del juego implementada
-
+* Implementación del game loop (AnimationTimer)
+* Movimiento del jugador con teclado (izquierda/derecha)
 
 ## 3. Requisitos previos
 
@@ -25,9 +26,20 @@ Este proyecto consiste en la implementación de un juego tipo Space Invaders uti
 
 ## 5. Estructura del proyecto
 
-* app: clases principales (Main, MenuController, GameApp)
-* game: lógica del juego (en desarrollo)
-* resources: archivos FXML y recursos
+* app:
+
+  * Main: clase principal que inicia la aplicación
+  * MenuController: controlador del menú
+  * GameApp: manejo de la escena del juego y lógica inicial
+
+* game:
+
+  * (En desarrollo) clases para lógica del juego como jugador, enemigos y disparos
+
+* resources:
+
+  * menu.fxml: interfaz del menú principal (aunque fue movido a app)
+
 
 
 ## 6. Decisiones de diseño
