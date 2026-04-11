@@ -10,18 +10,19 @@ public class MenuController {
 
     @FXML
     private void jugar(ActionEvent event) {
-        System.out.println("Iniciando juego...");
-
-        // Obtener la ventana actual
+        // Obtenemos el stage actual a partir del evento
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        
+        System.out.println("Cargando motores... ¡Despegue!");
 
-        // Cambiar a la pantalla del juego
+        // Iniciar la aplicacion del juego pasando el stage
         new GameApp(stage);
     }
 
     @FXML
     private void salir(ActionEvent event) {
-        System.out.println("Saliendo...");
+        System.out.println("Cerrando sistemas de navegación...");
         Platform.exit();
+        System.exit(0);
     }
 }
