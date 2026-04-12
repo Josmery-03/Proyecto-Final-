@@ -56,7 +56,7 @@ El juego incluye sistema de disparos, enemigos dinámicos, niveles y aumento de 
 
 * resources:
 
-  * imagenes utilizadas en el juego
+  * Imágenes utilizadas en el juego (nave, enemigos, fondo)
 
 ## 6. Decisiones de diseño
 
@@ -66,7 +66,16 @@ Además, se separaron las entidades principales (jugador, enemigos y disparos) e
 
 Se implementó un game loop personalizado utilizando AnimationTimer para controlar la actualización continua del juego.
 
-## 7. Autor
+## 7. Cómo jugar
+
+* Usa la flecha izquierda (←) y derecha (→) para mover la nave  
+* Presiona la barra espaciadora para disparar  
+* Elimina todos los enemigos para avanzar de nivel  
+* Evita los disparos enemigos  
+* Pierdes una vida al ser impactado  
+* El juego termina cuando pierdes todas tus vidas  
+
+## 8. Autor
 
 Josmery Bueno - 1000-4445
 2026
